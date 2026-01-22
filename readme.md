@@ -27,5 +27,5 @@ Our mission is to help companies in the UK and beyond harness the power of techn
 
 ## Technologies Used
 
-- HTML5 / CSS3 / TypeScript   
+- HTML5 / CSS3 / JavaScript   
 - Next.js /  Bootstrap   
