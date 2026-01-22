@@ -1,0 +1,193 @@
+@import "slick-carousel/slick/slick-theme.css";
+@import "slick-carousel/slick/slick.css";
+@import "../public/assets/css/default.css";
+/* <!--====== Style css ======--; */
+@import "../public/assets/css/style.css";
+/* <!--====== Responsive css ======--; */
+@import "../public/assets/css/responsive.css";
+@import "./mgfpop.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-gradient-blue {
+  background-color: transparent;
+  background: linear-gradient(
+    to left,
+    rgb(41, 129, 233) 0%,
+    rgb(62, 67, 220) 99%
+  ) !important;
+}
+.blue-light-bg {
+  background-color: var(--blue-light) !important;
+}
+
+.btn-blue-dark {
+  background-color: var(--blue-dark) !important;
+}
+.btn-blue-light {
+  background-color: var(--blue-light) !important;
+}
+
+/* slider */
+.slick-dots li button:before {
+  content: "" !important;
+}
+.slider_margin .slick-slide {
+  padding: 0 15px;
+}
+.slider_margin_right .slick-slide {
+  padding-right: 30px;
+}
+.slider_margin_5 .slick-slide {
+  padding: 0 5px;
+}
+
+.page-pagination ul li.active a {
+  background-color: var(--blue-light);
+  color: #fff;
+}
+
+.service-slider-one .slick-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  color: var(--purple-blue);
+  background-color: rgba(113, 65, 177, 0.07);
+  transition: all 0.3s;
+  /*  */
+  position: absolute;
+  top: -120px;
+  right: 0;
+}
+
+.service-slider-one .next {
+  right: 60px;
+}
+
+.testimonial-slider-three .slick-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(27, 27, 32, 0.07);
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: -22px;
+  right: 0;
+}
+
+.testimonial-slider-three .next.slick-arrow {
+  right: 62px;
+}
+
+.banner-slide-1 {
+  background-image: url("../public/assets/images/hero/hero-slider-1_1.jpg");
+}
+.banner-slide-2 {
+  background-image: url("../public/assets/images/hero/hero-slider-1_2.jpg");
+}
+.banner-slide-3 {
+  background-image: url("../public/assets/images/hero/hero-slider-1_3.jpg");
+}
+.banner-slide-2-1 {
+  background-image: url("../public/assets/images/hero/hero-slider-2_1.jpg");
+}
+.banner-slide-2-2 {
+  background-image: url("../public/assets/images/hero/hero-slider-2_2.jpg");
+}
+.banner_slider_3_1 {
+  background-image: url("../public/assets/images/hero/hero-slider-3_1.jpg");
+}
+.banner_slider_3_2 {
+  background-image: url("../public/assets/images/hero/hero-slider-3_2.jpg");
+}
+
+.slick-vertical .slick-slide {
+  border: 0 !important;
+}
+
+.hero-slider-two .slick-arrow {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  color: var(--blue-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.hero-slider-two .slick-arrow:hover {
+  color: #fff;
+  background: linear-gradient(
+    to left,
+    rgb(41, 129, 233) 0%,
+    rgb(62, 67, 220) 99%
+  ) !important;
+}
+
+.hero-slider-two .prev.slick-arrow {
+  left: 48.5%;
+}
+
+.hero-slider-two .next.slick-arrow {
+  left: 51.5%;
+}
+
+/* No Ui */
+.noUi-connects {
+  height: 4px;
+  border: none;
+  background-color: rgba(20, 29, 56, 0.1);
+  border-radius: 0px;
+}
+
+.noUi-target.noUi-ltr.noUi-horizontal.noUi-txt-dir-ltr {
+  height: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.noUi-handle.noUi-handle-lower,
+.noUi-handle.noUi-handle-upper,
+.noUi-touch-area {
+  height: 15px !important;
+  width: 5px !important;
+  border: none !important;
+  background: #43baff;
+  outline: none;
+  margin-left: 0;
+  border: none;
+  cursor: pointer;
+  left: 18px;
+}
+
+.noUi-connect {
+  background: #43baff !important;
+}
+.noUi-handle:before,
+.noUi-handle:after {
+  width: 0 !important;
+}
+
+/* .noUi-handle.noUi-handle-lower {
+  left: 0 !important;
+} */
