@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?baa8c57060bff04d24ac32a01c9c8c94") format("truetype"),
+url("./flaticon.woff?baa8c57060bff04d24ac32a01c9c8c94") format("woff"),
+url("./flaticon.woff2?baa8c57060bff04d24ac32a01c9c8c94") format("woff2"),
+url("./flaticon.eot?baa8c57060bff04d24ac32a01c9c8c94#iefix") format("embedded-opentype"),
+url("./flaticon.svg?baa8c57060bff04d24ac32a01c9c8c94#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-layers:before {
+    content: "\f101";
+}
+.flaticon-project-management:before {
+    content: "\f102";
+}
+.flaticon-puzzle-1:before {
+    content: "\f103";
+}
+.flaticon-solution-1:before {
+    content: "\f104";
+}
+.flaticon-cyber-security:before {
+    content: "\f105";
+}
+.flaticon-app:before {
+    content: "\f106";
+}
+.flaticon-internet-of-things:before {
+    content: "\f107";
+}
+.flaticon-document:before {
+    content: "\f108";
+}
+.flaticon-rating:before {
+    content: "\f109";
+}
+.flaticon-dashboard-1:before {
+    content: "\f10a";
+}
+.flaticon-trophy:before {
+    content: "\f10b";
+}
+.flaticon-social-care:before {
+    content: "\f10c";
+}
+.flaticon-compliant:before {
+    content: "\f10d";
+}
+.flaticon-solution-2:before {
+    content: "\f10e";
+}
+.flaticon-blockchain:before {
+    content: "\f10f";
+}
+.flaticon-creative:before {
+    content: "\f110";
+}
+.flaticon-graphic-tool:before {
+    content: "\f111";
+}
+.flaticon-link:before {
+    content: "\f112";
+}
+.flaticon-customer-service:before {
+    content: "\f113";
+}
+.flaticon-quote:before {
+    content: "\f114";
+}
+.flaticon-development:before {
+    content: "\f115";
+}
+.flaticon-iso:before {
+    content: "\f116";
+}
+.flaticon-web-design:before {
+    content: "\f117";
+}
+.flaticon-web-design-1:before {
+    content: "\f118";
+}
+.flaticon-mobile-app:before {
+    content: "\f119";
+}
+.flaticon-cyber-security-1:before {
+    content: "\f11a";
+}
+.flaticon-product:before {
+    content: "\f11b";
+}
+.flaticon-target:before {
+    content: "\f11c";
+}
+.flaticon-quotation:before {
+    content: "\f11d";
+}
+.flaticon-customer-loyalty:before {
+    content: "\f11e";
+}
+.flaticon-product-development:before {
+    content: "\f11f";
+}
+.flaticon-cyber-security-2:before {
+    content: "\f120";
+}
+.flaticon-padlock:before {
+    content: "\f121";
+}
+.flaticon-cyber-security-3:before {
+    content: "\f122";
+}
+.flaticon-cyber-security-4:before {
+    content: "\f123";
+}
+.flaticon-help:before {
+    content: "\f124";
+}
+.flaticon-technical-support:before {
+    content: "\f125";
+}
+.flaticon-it:before {
+    content: "\f126";
+}
+.flaticon-technical-support-1:before {
+    content: "\f127";
+}
+.flaticon-growth:before {
+    content: "\f128";
+}
+.flaticon-analysis:before {
+    content: "\f129";
+}
+.flaticon-solution-3:before {
+    content: "\f12a";
+}
+.flaticon-right-arrow:before {
+    content: "\f12b";
+}
+.flaticon-shield:before {
+    content: "\f12c";
+}
+.flaticon-support:before {
+    content: "\f12d";
+}
+.flaticon-bonus:before {
+    content: "\f12e";
+}
+.flaticon-map:before {
+    content: "\f12f";
+}
+.flaticon-phone:before {
+    content: "\f130";
+}
+.flaticon-email:before {
+    content: "\f131";
+}
+.flaticon-customer-service-1:before {
+    content: "\f132";
+}
+.flaticon-interactive:before {
+    content: "\f133";
+}
+.flaticon-search:before {
+    content: "\f134";
+}
+.flaticon-24-hours:before {
+    content: "\f135";
+}
+.flaticon-online-chat:before {
+    content: "\f136";
+}
+.flaticon-meeting:before {
+    content: "\f137";
+}
+.flaticon-planning:before {
+    content: "\f138";
+}
+.flaticon-dashboard-2:before {
+    content: "\f139";
+}
+.flaticon-christmas-stars:before {
+    content: "\f13a";
+}
+.flaticon-shining:before {
+    content: "\f13b";
+}
+.flaticon-form:before {
+    content: "\f13c";
+}
+.flaticon-lending:before {
+    content: "\f13d";
+}
+.flaticon-transaction:before {
+    content: "\f13e";
+}
+.flaticon-credit-card-payment:before {
+    content: "\f13f";
+}
+.flaticon-payment-method:before {
+    content: "\f140";
+}
+.flaticon-debit-card:before {
+    content: "\f141";
+}
+.flaticon-wallet:before {
+    content: "\f142";
+}
+.flaticon-dollar-symbol:before {
+    content: "\f143";
+}
+.flaticon-wall-clock:before {
+    content: "\f144";
+}
+.flaticon-cloud-computing:before {
+    content: "\f145";
+}
+.flaticon-hearts:before {
+    content: "\f146";
+}
+.flaticon-rating-1:before {
+    content: "\f147";
+}
+.flaticon-curve:before {
+    content: "\f148";
+}
+.flaticon-coding:before {
+    content: "\f149";
+}
+.flaticon-email-1:before {
+    content: "\f14a";
+}
