@@ -16,12 +16,6 @@ const Header1 = () => {
                   <ul>
                     <li>
                       <span>
-                        <i className="far fa-map-marker-alt" />
-                        UK-Based, serving clients globally
-                      </span>
-                    </li>
-                    <li>
-                      <span>
                         <i className="far fa-envelope" />
                         <a href="mailto:info@ftstechnologies.co.uk">info@ftstechnologies.co.uk</a>
                       </span>

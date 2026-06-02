@@ -15,7 +15,6 @@ function MyApp({ Component, pageProps }) {
           href="assets/images/favicon.ico"
           type="image/png"
         />
-        <title>Muntech - IT Solutions & Technology React nextJS Template</title>
       </Head>
       <Component {...pageProps} />
     </Fragment>

@@ -31,10 +31,6 @@ const Footer1 = ({ className }) => {
                       </span>
                     </li>
                     <li>
-                      <i className="far fa-map-marker-alt" />
-                      <span>UK-Based, serving clients globally</span>
-                    </li>
-                    <li>
                       <i className="far fa-phone" />
                       <span>
                         <a href="tel:+447863050300">+44 7863 050300</a>

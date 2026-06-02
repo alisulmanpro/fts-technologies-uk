@@ -77,11 +77,11 @@ const Index = () => {
                     >
                       NHS-Ready AI
                     </span>
-                    <h1 data-animation="fadeInDown" data-delay=".5s">
+                    <h2 data-animation="fadeInDown" data-delay=".5s">
                       Healthcare AI Solutions
-                    </h1>
+                    </h2>
                     <p className="text-white mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px" }}>
-                      Purpose-built AI systems for clinical teams and NHS partners — improving outcomes, ensuring data sovereignty, and reducing administrative burden.
+                      Purpose-built AI systems for clinical teams and NHS partners — from patient risk prediction and mental health triage to automated clinical documentation.
                     </p>
                     <ul
                       className="button"
@@ -121,9 +121,9 @@ const Index = () => {
                     >
                       Tailored Business Platforms
                     </span>
-                    <h1 data-animation="fadeInDown" data-delay=".5s">
+                    <h2 data-animation="fadeInDown" data-delay=".5s">
                       Custom AI Platforms
-                    </h1>
+                    </h2>
                     <p className="text-white mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px" }}>
                       Design and build bespoke AI-powered platforms tailored precisely to your business needs — from SaaS products to internal enterprise systems.
                     </p>
@@ -237,7 +237,7 @@ const Index = () => {
                     <Link href="/service">AI Healthcare Solutions</Link>
                   </h3>
                   <p>
-                    Purpose-built AI systems for healthcare organisations, clinical teams, and NHS partners — improving outcomes and reducing admin burden.
+                    Purpose-built AI systems for clinical teams and NHS partners — including patient risk prediction, clinical documentation, and mental health triage.
                   </p>
                 </div>
               </div>
@@ -345,6 +345,101 @@ const Index = () => {
       </section>
       {/*====== End Why Choose Us Section ======*/}
 
+      {/*====== Start AI Mental Assistance Section ======*/}
+      <section className="fancy-about pt-120 pb-80 position-relative">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="about-img mb-50 wow fadeInLeft">
+                <img 
+                  src="assets/images/about/digital_health_ai.png" 
+                  alt="AI Mental Assistance" 
+                  style={{ borderRadius: "10px", width: "100%", height: "auto" }}
+                />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="text-wrapper mb-50 ml-lg-4 wow fadeInRight">
+                <div className="section-title mb-25">
+                  <span className="sub-title red-dark text-underline">
+                    ai mental assistance
+                  </span>
+                  <h2>
+                    Intelligent Mental Health Triage &amp; Clinical Decision Support
+                  </h2>
+                </div>
+                <p className="mb-35">
+                  FTS Technologies designs and deploys secure, sovereign AI systems purpose-built for mental health clinics and NHS psychological therapy pathways. Our tools assist clinicians in diagnosing, scoring, and triaging patient needs efficiently while ensuring complete data sovereignty.
+                </p>
+                <div className="row">
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-social-care" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          Pathway Triage &amp; Intake
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          Autonomous risk-scoring and pre-clinical questionnaires tailored for NHS IAPT pathways to streamline patient routing.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-project-management" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          Clinical Documentation
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          Automated formatting of therapeutic notes and structured letters from audio consultations to reduce clinician fatigue.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-compliant" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          Sovereign Governance
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          Data resides strictly on UK-sovereign infrastructure, compliant with NHS Data Security and Protection Toolkit requirements.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-solution-1" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          Outcome Tracking
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          Integrated metrics mapping recovery curves, treatment efficacy, and clinical resource performance in real time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End AI Mental Assistance Section ======*/}
+
       {/*====== Start Services Detailed Grid ======*/}
       <section className="service-area dark-black-bg pt-130 pb-130">
         <div className="container">
@@ -421,11 +516,11 @@ const Index = () => {
                       <div className="text">
                         <h3 className="title">
                           <Link href="/service" className="text-underline">
-                            Healthcare Chatbots
+                            Mental Health &amp; Conversational AI
                           </Link>
                         </h3>
                         <p>
-                          Conversational AI for patient engagement, clinical note analysis, and medical document summarisation.
+                          Intelligent triage tools for mental health services, NHS IAPT pathways, conversational patient support, and clinical note analysis.
                         </p>
                       </div>
                     </div>
