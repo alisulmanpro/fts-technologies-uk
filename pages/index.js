@@ -353,7 +353,7 @@ const Index = () => {
               <div className="about-img mb-50 wow fadeInLeft">
                 <img 
                   src="assets/images/about/digital_health_ai.png" 
-                  alt="AI Mental Assistance" 
+                  alt="AI Clinical & Practice Assistants" 
                   style={{ borderRadius: "10px", width: "100%", height: "auto" }}
                 />
               </div>
@@ -362,31 +362,16 @@ const Index = () => {
               <div className="text-wrapper mb-50 ml-lg-4 wow fadeInRight">
                 <div className="section-title mb-25">
                   <span className="sub-title red-dark text-underline">
-                    ai mental assistance
+                    clinical &amp; practice operations
                   </span>
                   <h2>
-                    Intelligent Mental Health Triage &amp; Clinical Decision Support
+                    AI Clinical &amp; Practice Assistants
                   </h2>
                 </div>
                 <p className="mb-35">
-                  FTS Technologies designs and deploys secure, sovereign AI systems purpose-built for mental health clinics and NHS psychological therapy pathways. Our tools assist clinicians in diagnosing, scoring, and triaging patient needs efficiently while ensuring complete data sovereignty.
+                  FTS Technologies designs and deploys secure, sovereign healthcare AI systems designed to streamline clinic workflows, automate paperwork, and enhance patient engagement. Our NHS-ready assistants support both clinical and operational teams.
                 </p>
                 <div className="row">
-                  <div className="col-md-6 col-sm-12">
-                    <div className="block-style-two animate-icon mb-30">
-                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <i className="flaticon-social-care" style={{ color: "#fd4a18", fontSize: "32px" }} />
-                      </div>
-                      <div className="text">
-                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
-                          Pathway Triage &amp; Intake
-                        </h4>
-                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                          Autonomous risk-scoring and pre-clinical questionnaires tailored for NHS IAPT pathways to streamline patient routing.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                   <div className="col-md-6 col-sm-12">
                     <div className="block-style-two animate-icon mb-30">
                       <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -394,25 +379,10 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
-                          Clinical Documentation
+                          AI Mental Documentation
                         </h4>
                         <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                          Automated formatting of therapeutic notes and structured letters from audio consultations to reduce clinician fatigue.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
-                    <div className="block-style-two animate-icon mb-30">
-                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <i className="flaticon-compliant" style={{ color: "#fd4a18", fontSize: "32px" }} />
-                      </div>
-                      <div className="text">
-                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
-                          Sovereign Governance
-                        </h4>
-                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                          Data resides strictly on UK-sovereign infrastructure, compliant with NHS Data Security and Protection Toolkit requirements.
+                          Auto-generates structured clinical notes, GP letters, and therapy transcripts directly from audio consultations, reducing session administration.
                         </p>
                       </div>
                     </div>
@@ -424,10 +394,40 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
-                          Outcome Tracking
+                          AI Appointment Management
                         </h4>
                         <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                          Integrated metrics mapping recovery curves, treatment efficacy, and clinical resource performance in real time.
+                          Intelligent scheduling agents that automate bookings, calendar adjustments, and patient follow-up reminders to minimize empty slots.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-interactive" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          AI Patient Support Chatbot
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          A secure 24/7 chatbot that answers practice questions, completes pre-visit questionnaires, and guides patients to self-care resources.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-sm-12">
+                    <div className="block-style-two animate-icon mb-30">
+                      <div className="icon" style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <i className="flaticon-social-care" style={{ color: "#fd4a18", fontSize: "32px" }} />
+                      </div>
+                      <div className="text">
+                        <h4 style={{ fontWeight: "700", fontSize: "18px", marginBottom: "8px" }} className="text-underline">
+                          AI Medical Receptionist
+                        </h4>
+                        <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                          Voice and text AI receptionist that handles incoming inquiries, books appointments, and routes clinical requests safely.
                         </p>
                       </div>
                     </div>
