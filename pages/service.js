@@ -23,115 +23,62 @@ const Service1 = () => {
             </div>
           </div>
 
-          <div className="row">
-            {/* Service 01 */}
-            <div className="col-lg-12 mb-70">
-              <div className="service-details-wrapper p-5 bg-white shadow-sm border-left-red wow fadeInUp" style={{ borderLeft: "5px solid #fd4a18", borderRadius: "0 8px 8px 0" }}>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="content">
-                      <span style={{ color: "#fd4a18", fontWeight: "700", textTransform: "uppercase", fontSize: "14px" }}>Service 01</span>
-                      <h3 className="mb-25" style={{ fontSize: "28px", fontWeight: "700" }}>AI Automation Solutions</h3>
-                      <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                        Streamline business operations with intelligent automation, AI agents, workflow optimisation, document processing, and process automation solutions that improve efficiency and reduce manual effort across your organisation.
-                      </p>
-                      <div className="mt-30">
-                        <h5 className="mb-15" style={{ fontWeight: "700" }}>Technologies We Use:</h5>
-                        <p style={{ fontStyle: "italic", fontSize: "14px" }}>
-                          Python, LangChain, OpenAI API, Anthropic Claude API, Azure OpenAI, UiPath, Power Automate, Apache Airflow, ServiceNow, REST APIs.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="features-list pl-lg-4 mt-4 mt-lg-0">
-                      <h4 className="mb-20" style={{ fontSize: "20px", fontWeight: "700" }}>What's Included:</h4>
-                      <ul className="list-style-dot check-list">
-                        <li className="mb-10"><strong>Intelligent AI agents:</strong> Autonomous systems that execute multi-step business tasks without human intervention.</li>
-                        <li className="mb-10"><strong>Workflow automation:</strong> End-to-end orchestration of complex business processes.</li>
-                        <li className="mb-10"><strong>Document processing:</strong> AI-powered extraction, classification, and routing of unstructured documents.</li>
-                        <li className="mb-10"><strong>Robotic process automation (RPA):</strong> Software robots that handle repetitive, rule-based tasks.</li>
-                        <li className="mb-10"><strong>Process optimisation:</strong> Redesign workflows to identify and eliminate inefficiencies.</li>
-                        <li className="mb-10"><strong>LLM integration:</strong> Embedding large language model capability into existing enterprise systems.</li>
-                      </ul>
-                    </div>
-                  </div>
+          <div className="fts-services-grid">
+            {[
+              {
+                icon: "flaticon-project-management",
+                title: "AI Automation Solutions",
+                desc: "Streamline business operations with intelligent automation that eliminates manual effort and accelerates workflows."
+              },
+              {
+                icon: "flaticon-social-care",
+                title: "AI Healthcare Solutions",
+                desc: "Purpose-built AI systems for clinical teams and NHS partners — from risk prediction to clinical documentation."
+              },
+              {
+                icon: "flaticon-compliant",
+                title: "Custom AI Platforms",
+                desc: "Bespoke AI-powered platforms tailored to your business needs — from SaaS products to enterprise tools."
+              },
+              {
+                icon: "flaticon-solution-1",
+                title: "AI Customer Support Agents",
+                desc: "Intelligent AI agents for customer service, ticket handling, lead qualification, and 24/7 support automation."
+              },
+              {
+                icon: "flaticon-interactive",
+                title: "Healthcare Chatbots",
+                desc: "Conversational AI for patient engagement, clinical note analysis, and medical document summarisation."
+              },
+              {
+                icon: "flaticon-project-management",
+                title: "Web Applications",
+                desc: "End-to-end development of AI-powered platforms, internal business tools, and SaaS products."
+              },
+              {
+                icon: "flaticon-social-care",
+                title: "Mental Health AI",
+                desc: "Intelligent triage tools for mental health services, NHS IAPT pathways, and conversational patient support."
+              },
+              {
+                icon: "flaticon-solution-1",
+                title: "Cloud Infrastructure",
+                desc: "Scalable Azure, AWS, and Google Cloud architecture, migrations, and cost-optimisation strategies."
+              },
+              {
+                icon: "flaticon-compliant",
+                title: "Cyber Security",
+                desc: "Advanced security architecture, vulnerability assessments, penetration testing, and compliance alignments."
+              }
+            ].map((service, index) => (
+              <div className="fts-service-card wow fadeInUp" data-wow-delay={`${0.1 * (index + 1)}s`} key={index}>
+                <div className="fts-service-card__icon">
+                  <i className={service.icon} />
                 </div>
+                <h3 className="fts-service-card__title">{service.title}</h3>
+                <p className="fts-service-card__desc">{service.desc}</p>
               </div>
-            </div>
-
-            {/* Service 02 */}
-            <div className="col-lg-12 mb-70">
-              <div className="service-details-wrapper p-5 bg-white shadow-sm border-left-red wow fadeInUp" style={{ borderLeft: "5px solid #fd4a18", borderRadius: "0 8px 8px 0" }} data-wow-delay=".2s">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="content">
-                      <span style={{ color: "#fd4a18", fontWeight: "700", textTransform: "uppercase", fontSize: "14px" }}>Service 02</span>
-                      <h3 className="mb-25" style={{ fontSize: "28px", fontWeight: "700" }}>AI Healthcare Solutions</h3>
-                      <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                        Develop healthcare-focused AI systems including clinical decision support, healthcare analytics, medical NLP, mental health AI, and intelligent healthcare applications — built specifically for NHS environments and UK regulatory requirements.
-                      </p>
-                      <div className="mt-30 p-4 bg-light" style={{ borderRadius: "5px", borderLeft: "3px solid #1B1B20" }}>
-                        <h5 className="mb-15" style={{ fontWeight: "700" }}>Our Healthcare AI Commitment:</h5>
-                        <p style={{ fontSize: "13px", lineHeight: "1.6", margin: 0 }}>
-                          All healthcare AI systems we build are designed to run on UK-sovereign infrastructure, with full NHS data governance compliance, MHRA-aligned regulatory pathways, and mandatory bias and equity testing. Patient data never leaves UK servers.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="features-list pl-lg-4 mt-4 mt-lg-0">
-                      <h4 className="mb-20" style={{ fontSize: "20px", fontWeight: "700" }}>What's Included:</h4>
-                      <ul className="list-style-dot check-list">
-                        <li className="mb-10"><strong>Clinical decision support:</strong> AI tools that assist clinicians with diagnosis and risk stratification.</li>
-                        <li className="mb-10"><strong>Patient health risk prediction:</strong> Early warning models to identify at-risk patients.</li>
-                        <li className="mb-10"><strong>Healthcare analytics:</strong> Population health dashboards and outcome tracking.</li>
-                        <li className="mb-10"><strong>Medical NLP:</strong> Natural language processing for clinical notes and summaries.</li>
-                        <li className="mb-10"><strong>Mental health AI:</strong> Triage and risk scoring tools for mental health pathways.</li>
-                        <li className="mb-10"><strong>AI clinical documentation:</strong> Automated consultation letters and records from audio.</li>
-                        <li className="mb-10"><strong>Intelligent healthcare apps:</strong> Bespoke NHS-integrated applications.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Service 03 */}
-            <div className="col-lg-12 mb-70">
-              <div className="service-details-wrapper p-5 bg-white shadow-sm border-left-red wow fadeInUp" style={{ borderLeft: "5px solid #fd4a18", borderRadius: "0 8px 8px 0" }} data-wow-delay=".3s">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="content">
-                      <span style={{ color: "#fd4a18", fontWeight: "700", textTransform: "uppercase", fontSize: "14px" }}>Service 03</span>
-                      <h3 className="mb-25" style={{ fontSize: "28px", fontWeight: "700" }}>Custom AI Platforms</h3>
-                      <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                        Design and build custom AI-powered web applications, SaaS platforms, chatbots, AI assistants, data intelligence tools, and enterprise AI solutions tailored to business needs — from first architecture sketch to live production deployment.
-                      </p>
-                      <div className="mt-30 p-4 bg-light" style={{ borderRadius: "5px", borderLeft: "3px solid #1B1B20" }}>
-                        <h5 className="mb-15" style={{ fontWeight: "700" }}>Our Delivery Approach:</h5>
-                        <p style={{ fontSize: "13px", lineHeight: "1.6", margin: 0 }}>
-                          Every custom platform project begins with a structured discovery phase — understanding your data, users, and desired outcomes. We then follow an agile delivery methodology with regular checkpoints, demos, and iteration cycles.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="features-list pl-lg-4 mt-4 mt-lg-0">
-                      <h4 className="mb-20" style={{ fontSize: "20px", fontWeight: "700" }}>What's Included:</h4>
-                      <ul className="list-style-dot check-list">
-                        <li className="mb-10"><strong>Custom AI-powered web apps:</strong> Full-stack applications with AI capability built-in.</li>
-                        <li className="mb-10"><strong>SaaS platform development:</strong> Multi-tenant AI platforms ready for commercial launch.</li>
-                        <li className="mb-10"><strong>Chatbots and AI assistants:</strong> Conversational interfaces for customer service.</li>
-                        <li className="mb-10"><strong>Data intelligence tools:</strong> AI dashboards, predictive analytics, and BI.</li>
-                        <li className="mb-10"><strong>Enterprise AI solutions:</strong> Large-scale AI integrated with CRM, ERP, and cloud.</li>
-                        <li className="mb-10"><strong>AI API and integration layer:</strong> Connecting AI capability via secure APIs.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -155,9 +102,9 @@ const Service1 = () => {
                   <i className="flaticon-solution-1" style={{ color: "#fd4a18" }} />
                 </div>
                 <div className="text">
-                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>AI Customer Support Agents</h3>
+                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>AI Mental Documentation Assistance</h3>
                   <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                    Intelligent AI agents for customer service, ticket handling, lead qualification, and 24/7 support automation.
+                    Intelligent AI agents to automate mental health documentation, note-taking, and secure record keeping.
                   </p>
                 </div>
               </div>
@@ -168,9 +115,9 @@ const Service1 = () => {
                   <i className="flaticon-social-care" style={{ color: "#fd4a18" }} />
                 </div>
                 <div className="text">
-                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>Healthcare Decision Support</h3>
+                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>AI Appointment Management</h3>
                   <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                    AI-powered clinical insights, patient risk assessment, healthcare analytics, and medical workflow optimisation.
+                    Smart scheduling and booking systems to handle patient appointments, reminders, and calendar optimisations.
                   </p>
                 </div>
               </div>
@@ -181,9 +128,9 @@ const Service1 = () => {
                   <i className="flaticon-interactive" style={{ color: "#fd4a18" }} />
                 </div>
                 <div className="text">
-                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>Healthcare Chatbots</h3>
+                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>AI Patient Support Chatbot</h3>
                   <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                    Conversational AI for patient engagement, clinical note analysis, and medical document summarisation.
+                    Conversational AI designed to answer patient queries, provide triage guidance, and offer 24/7 engagement.
                   </p>
                 </div>
               </div>
@@ -194,9 +141,9 @@ const Service1 = () => {
                   <i className="flaticon-project-management" style={{ color: "#fd4a18" }} />
                 </div>
                 <div className="text">
-                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>Web Applications</h3>
+                  <h3 className="text-underline" style={{ fontSize: "18px", fontWeight: "700" }}>AI Medical Receptionist</h3>
                   <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-                    End-to-end development of AI-powered platforms, internal business tools, enterprise applications, and SaaS products.
+                    Virtual receptionists to intelligently route calls, manage front-desk inquiries, and streamline clinic operations.
                   </p>
                 </div>
               </div>

@@ -1,12 +1,9 @@
 import Link from "next/link";
-import Slider from "react-slick";
 import Newsletter from "../src/components/Newsletter";
 import Footer1 from "../src/layouts/footers/Footer1";
 import Header1 from "../src/layouts/headers/Header1";
 import Layout from "../src/layouts/Layout";
-import {
-  heroOne,
-} from "../src/sliderProps";
+
 
 const Index = () => {
   return (
@@ -15,140 +12,47 @@ const Index = () => {
       
       {/*====== Start Hero Section ======*/}
       <section className="hero-area">
-        <Slider {...heroOne} className="hero-wrapper-one hero-slider-one">
-          <div
-            className="single-slider banner-slide-1 bg_cover"
-            style={{
-              backgroundImage: "url(assets/images/hero/hero-slider-1_1.jpg)",
-            }}
-          >
-            <div className="container">
-              <div className="row justify-content-start">
-                <div className="col-lg-8">
-                  <div className="hero-content">
-                    <span
-                      className="sub-title text-underline"
-                      data-animation="fadeInDown"
-                      data-delay=".3s"
-                    >
-                      UK-Based. Globally Capable.
-                    </span>
-                    <h1 data-animation="fadeInDown" data-delay=".5s">
-                      Enterprise AI &amp; IT Solutions
-                    </h1>
-                    <p className="text-white mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px" }}>
-                      Architecting, Developing &amp; Deploying Intelligent AI Systems and Enterprise IT Infrastructure. FTS Technologies partners with businesses and public sector organisations to build systems that work.
-                    </p>
-                    <ul
-                      className="button"
-                      data-animation="fadeInDown"
-                      data-delay=".7s"
-                    >
-                      <li>
-                        <Link href="/about" className="main-btn btn-red-dark">
-                          about the company
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/service" className="main-btn btn-white">
-                          our services
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
+        <div
+          className="single-slider banner-slide-1 bg_cover"
+          style={{
+            backgroundImage: "url(assets/images/hero/hero-slider-1_1.jpg)",
+            display: "flex",
+            alignItems: "center",
+            minHeight: "600px"
+          }}
+        >
+          <div className="container">
+            <div className="row justify-content-start">
+              <div className="col-lg-7">
+                <div className="hero-content text-start" >
+                  <h1 data-animation="fadeInDown" data-delay=".5s">
+                    Transforming Businesses with Intelligent <span style={{color: "#fd4a18"}}>AI Solutions</span>
+                  </h1>
+                  <p className="text-black mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px", maxWidth: "720px", margin: "0 auto 35px", color: "#000" }}>
+                    At FTS Technology, we transform businesses with intelligent AI solutions that drive innovation and efficiency. From automation to custom AI applications, we help organisations boost productivity, reduce costs, and stay competitive in the digital age.
+                  </p>
+                  <ul
+                    className="button"
+                    data-animation="fadeInDown"
+                    data-delay=".7s"
+                    style={{ display: "flex",justifyContent: "start", alignItems: "center", gap: "1rem" }}
+                  >
+                    <li>
+                      <Link href="/about" className="main-btn btn-red-dark">
+                        about the company
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/service" className="main-btn btn-white">
+                        our services
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="single-slider banner-slide-2 bg_cover"
-            style={{
-              backgroundImage: "url(assets/images/hero/hero-slider-1_2.jpg)",
-            }}
-          >
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-8">
-                  <div className="hero-content text-center">
-                    <span
-                      className="sub-title text-underline"
-                      data-animation="fadeInDown"
-                      data-delay=".3s"
-                    >
-                      NHS-Ready AI
-                    </span>
-                    <h2 data-animation="fadeInDown" data-delay=".5s">
-                      Healthcare AI Solutions
-                    </h2>
-                    <p className="text-white mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px" }}>
-                      Purpose-built AI systems for clinical teams and NHS partners — from patient risk prediction and mental health triage to automated clinical documentation.
-                    </p>
-                    <ul
-                      className="button"
-                      data-animation="fadeInDown"
-                      data-delay=".7s"
-                    >
-                      <li>
-                        <Link href="/service" className="main-btn btn-red-dark">
-                          explore healthcare ai
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/contact" className="main-btn btn-white">
-                          contact our experts
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="single-slider banner-slide-3 bg_cover"
-            style={{
-              backgroundImage: "url(assets/images/hero/hero-slider-1_3.jpg)",
-            }}
-          >
-            <div className="container">
-              <div className="row justify-content-end">
-                <div className="col-lg-8">
-                  <div className="hero-content text-right">
-                    <span
-                      className="sub-title text-underline"
-                      data-animation="fadeInDown"
-                      data-delay=".3s"
-                    >
-                      Tailored Business Platforms
-                    </span>
-                    <h2 data-animation="fadeInDown" data-delay=".5s">
-                      Custom AI Platforms
-                    </h2>
-                    <p className="text-white mb-35" data-animation="fadeInDown" data-delay=".6s" style={{ fontSize: "18px" }}>
-                      Design and build bespoke AI-powered platforms tailored precisely to your business needs — from SaaS products to internal enterprise systems.
-                    </p>
-                    <ul
-                      className="button"
-                      data-animation="fadeInDown"
-                      data-delay=".7s"
-                    >
-                      <li>
-                        <Link href="/service" className="main-btn btn-red-dark">
-                          view platforms
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/learning-hub" className="main-btn btn-white">
-                          learning pathways
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Slider>
+        </div>
       </section>
       {/*====== End Hero Section ======*/}
 
@@ -262,88 +166,64 @@ const Index = () => {
       </section>
       {/*====== End What We Do Section ======*/}
 
-      {/*====== Start Why Choose Us Section ======*/}
-      <section className="fancy-about fancy-about-one pt-120 position-relative pb-80 light-gray-bg border-top-1 border-bottom-1">
+      {/*====== Start How We Work Section ======*/}
+      <section className="how-we-work-section pt-120 pb-80 light-gray-bg border-top-1 border-bottom-1">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
-              <div className="text-wrapper mb-50 wow fadeInLeft">
-                <div className="section-title mb-20">
-                  <span className="sub-title red-dark text-underline">
-                    why choose us
-                  </span>
-                  <h2 className="text-transform">
-                    UK-Based, Globally Capable Technology Partner
-                  </h2>
-                </div>
-                <p className="mb-25">
-                  We are a UK-registered technology company with deep expertise in AI, cloud infrastructure, and enterprise software. We understand UK regulatory requirements — including NHS data governance, GDPR, and the UK AI Act — and build systems that are compliant from day one.
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="section-title text-center mb-60 wow fadeInUp">
+                <span className="sub-title red-dark text-underline">
+                  our process
+                </span>
+                <h2 className="text-uppercase">
+                  How We Work
+                </h2>
+                <p className="mt-20">
+                  A proven, structured approach to delivering AI and enterprise technology — from initial idea through to production deployment and ongoing support.
                 </p>
-                <Link href="/about" className="main-btn">
-                  about company facts
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="row">
-                <div className="col-md-6 col-sm-12">
-                  <div className="block-style-two animate-icon mb-40 wow fadeInUp" data-wow-delay=".2s">
-                    <div className="icon">
-                      <img src="assets/images/icon/icon-1.png" alt="" />
-                    </div>
-                    <div className="text">
-                      <h3 className="text-underline">End-to-End Delivery</h3>
-                      <p>
-                        From initial discovery and architecture design through to development, deployment, and ongoing support.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="block-style-two animate-icon mb-40 wow fadeInUp" data-wow-delay=".4s">
-                    <div className="icon">
-                      <img src="assets/images/icon/icon-2.png" alt="" />
-                    </div>
-                    <div className="text">
-                      <h3 className="text-underline">AI That Actually Works</h3>
-                      <p>
-                        We build practical AI systems, not proof-of-concepts. Tested, validated, and optimised for real production.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="block-style-two animate-icon mb-40 wow fadeInUp" data-wow-delay=".6s">
-                    <div className="icon">
-                      <img src="assets/images/icon/icon-3.png" alt="" />
-                    </div>
-                    <div className="text">
-                      <h3 className="text-underline">Public Sector Expertise</h3>
-                      <p>
-                        Deep experience delivering AI for healthcare, where data sensitivity and governance require unique expertise.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="block-style-two animate-icon mb-40 wow fadeInUp" data-wow-delay=".8s">
-                    <div className="icon">
-                      <img src="assets/images/icon/icon-4.png" alt="" />
-                    </div>
-                    <div className="text">
-                      <h3 className="text-underline">Sovereign by Design</h3>
-                      <p>
-                        Keeping data sovereign on UK infrastructure under UK law — essential for public healthcare compliance.
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
+          <div className="fts-process-grid">
+            {[
+              {
+                step: "01",
+                title: "Discovery",
+                desc: "We learn your business, data, users, and goals through structured workshops and stakeholder interviews.",
+                icon: "flaticon-solution-1"
+              },
+              {
+                step: "02",
+                title: "Design & Architecture",
+                desc: "We map out the technical architecture, data flows, and user experience before writing a single line of code.",
+                icon: "flaticon-project-management"
+              },
+              {
+                step: "03",
+                title: "Build & Test",
+                desc: "Agile sprints with regular demos, rigorous testing, and continuous integration to deliver production-grade systems.",
+                icon: "flaticon-interactive"
+              },
+              {
+                step: "04",
+                title: "Deploy & Support",
+                desc: "Seamless go-live with monitoring, documentation, training, and ongoing technical support built in from day one.",
+                icon: "flaticon-compliant"
+              }
+            ].map((item, index) => (
+              <div className="fts-process-card wow fadeInUp" data-wow-delay={`${0.2 * (index + 1)}s`} key={index}>
+                <div className="fts-process-card__step">{item.step}</div>
+                <div className="fts-process-card__icon">
+                  <i className={item.icon} />
+                </div>
+                <h3 className="fts-process-card__title">{item.title}</h3>
+                <p className="fts-process-card__desc">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
-      {/*====== End Why Choose Us Section ======*/}
+      {/*====== End How We Work Section ======*/}
 
       {/*====== Start AI Mental Assistance Section ======*/}
       <section className="fancy-about pt-120 pb-80 position-relative">

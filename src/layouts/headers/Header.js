@@ -75,10 +75,8 @@ const Header = () => {
           <div className="container-fluid">
             <div className="primary-menu">
               <div className="site-branding">
-                <Link href="/">
-                  <a className="brand-logo">
-                    <img src="assets/images/logo/logo-5.png" alt="Site Logo" />
-                  </a>
+                <Link href="/" className="brand-logo">
+                  <img src="assets/images/logo/logo-1.png" alt="FTS Technology Logo" />
                 </Link>
               </div>
               <div className="nav-menu">
@@ -123,9 +121,14 @@ const Header = () => {
                     </select>
                   </li>
                   <li className="nav-button">
-                    <Link href="/contact" className="main-btn btn-blue-light">
-                      get free quote
-                    </Link>
+                    <a
+                      href="https://wa.me/447863050300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="main-btn btn-blue-light"
+                    >
+                      Get in Touch
+                    </a>
                   </li>
                   <li className="navbar-toggle-btn">
                     <div className="navbar-toggler">

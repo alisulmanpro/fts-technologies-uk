@@ -49,10 +49,16 @@ const Header1 = () => {
           <div className="container-fluid">
             <div className="primary-menu">
               <div className="site-branding">
-                <Link href="/" className="brand-logo" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-                  <span style={{ fontSize: '24px', fontWeight: '700', color: '#1B1B20', letterSpacing: '0.5px', fontFamily: '"Rajdhani", sans-serif' }}>
-                    FTS <span style={{ color: '#fd4a18' }}>Technologies</span>
-                  </span>
+                <Link href="/" className="brand-logo" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <img src="assets/images/logo/logo-1.png" alt="FTS Technology Logo" style={{ height: '40px', width: 'auto' }} />
+                  <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
+                    <span style={{ fontSize: '24px', fontWeight: '700', color: '#1B1B20', letterSpacing: '0.5px', fontFamily: '"Rajdhani", sans-serif', width: "20rem" }}>
+                      FTS <span style={{ color: '#fd4a18' }}>Technology</span>
+                    </span>
+                    <span style={{ fontSize: '11px', color: '#666', fontWeight: '400', letterSpacing: '0.5px', fontFamily: '"Rajdhani", sans-serif' }}>
+                      Intelligent Systems. Real Results.
+                    </span>
+                  </div>
                 </Link>
               </div>
               <div className="nav-menu">
@@ -66,9 +72,14 @@ const Header1 = () => {
               <div className="header-right-nav">
                 <ul>
                   <li className="nav-button">
-                    <Link href="/contact" className="main-btn">
-                      get free quote
-                    </Link>
+                    <a
+                      href="https://wa.me/447863050300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="main-btn"
+                    >
+                      Get in Touch
+                    </a>
                   </li>
                   <li className="navbar-toggle-btn">
                     <div className="navbar-toggler">
